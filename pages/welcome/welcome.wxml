@@ -1,0 +1,12 @@
+<!--pages/welcome/welcome.wxml-->
+<!-- <text>pages/welcome/welcome.wxml</text> -->
+
+<view class="container">
+<image src = "/images/avatar/1.png" class = "user-avatar"></image>
+<text class="motto">Hello, my dear</text>
+<l-avatar class = "l-avatar" placement = "bottom"  open-data = "{{['userAvatarUrl','userNickName']}}" />
+<!-- <button>start the tour of micro prog</button>  -->
+<view  bind:tap = "onTap" class="journey-container">
+  <text class="journey"> start the tour of micro prog</text>
+</view>
+</view>
